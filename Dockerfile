@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:2.1.2-runtime
+FROM microsoft/dotnet:2.2.2-runtime
 WORKDIR /app
 ENV S3Sync_LocalRoot=/app/sync
 RUN curl -sLJO https://github.com/guitarrapc/S3Sync/releases/download/1.3.0/s3sync_netcore.tar.gz \
